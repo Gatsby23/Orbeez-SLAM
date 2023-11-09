@@ -1,0 +1,62 @@
+[  1%] Built target opengl_helper
+[  3%] Built target freeglut_minimal
+[  5%] Built target DBoW2
+[  9%] Built target stuff
+[ 15%] Built target glfw_objects
+[ 20%] Built target tiny-cuda-nn
+[ 21%] Built target csparse_extension
+[ 31%] Built target core
+[ 40%] Built target ngp
+[ 41%] Built target solver_pcg
+[ 42%] Built target solver_dense
+[ 43%] Built target solver_structure_only
+[ 43%] Built target solver_csparse
+[ 44%] Built target solver_eigen
+[ 45%] Built target solver_cholmod
+[ 45%] Built target testbed
+[ 51%] Built target types_slam2d
+[ 59%] Built target types_slam3d
+[ 59%] Building CUDA object Thirdparty/instant-ngp-kf/CMakeFiles/pyngp.dir/src/python_api.cu.o
+[ 60%] Built target solver_slam2d_linear
+[ 63%] Built target types_sclam2d
+[ 67%] Built target types_data
+[ 71%] Built target types_slam2d_addons
+[ 76%] Built target types_slam3d_addons
+[ 83%] Built target types_sba
+[ 84%] Built target types_icp
+[ 85%] Built target types_sim3
+[ 94%] Built target ORBEEZ
+[ 95%] Built target mono_tum
+[ 96%] Built target mono_scannet
+[ 97%] Built target mono_replica
+[ 98%] Built target rgbd_replica
+[ 99%] Built target rgbd_tum
+[100%] Built target rgbd_scannet
+/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/dependencies/pybind11/include/pybind11/detail/type_caster_base.h(448): error: pointer to incomplete class type "_frame" is not allowed
+
+/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/dependencies/pybind11/include/pybind11/detail/type_caster_base.h(448): error: type name is not allowed
+
+/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/dependencies/pybind11/include/pybind11/detail/type_caster_base.h(448): error: expected an expression
+
+/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/dependencies/pybind11/include/pybind11/detail/type_caster_base.h(450): error: pointer to incomplete class type "_frame" is not allowed
+
+/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/dependencies/pybind11/include/pybind11/detail/type_caster_base.h(450): error: type name is not allowed
+
+/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/dependencies/pybind11/include/pybind11/detail/type_caster_base.h(450): error: expected an expression
+
+/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/dependencies/pybind11/include/pybind11/detail/type_caster_base.h(451): error: pointer to incomplete class type "_frame" is not allowed
+
+/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/dependencies/pybind11/include/pybind11/pybind11.h(2163): error: class "_ts" has no member "frame"
+
+/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/dependencies/pybind11/include/pybind11/pybind11.h(2164): error: pointer to incomplete class type "_frame" is not allowed
+
+/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/dependencies/pybind11/include/pybind11/pybind11.h(2165): error: pointer to incomplete class type "_frame" is not allowed
+
+/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/dependencies/pybind11/include/pybind11/pybind11.h(2168): error: pointer to incomplete class type "_frame" is not allowed
+
+/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/dependencies/pybind11/include/pybind11/pybind11.h(2168): error: pointer to incomplete class type "_frame" is not allowed
+
+12 errors detected in the compilation of "/home/robotics/Lab_Study/NeRF_Study/Orbeez-SLAM/Thirdparty/instant-ngp-kf/src/python_api.cu".
+make[2]: *** [Thirdparty/instant-ngp-kf/CMakeFiles/pyngp.dir/build.make:77: Thirdparty/instant-ngp-kf/CMakeFiles/pyngp.dir/src/python_api.cu.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1653: Thirdparty/instant-ngp-kf/CMakeFiles/pyngp.dir/all] Error 2
+make: *** [Makefile:156: all] Error 2

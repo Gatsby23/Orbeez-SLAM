@@ -58,7 +58,7 @@ else()
     list(APPEND CUDA_NVCC_FLAGS "-Xcompiler=-Wno-float-conversion")
     list(APPEND CUDA_NVCC_FLAGS "-Xcompiler=-fno-strict-aliasing")
     list(APPEND CUDA_NVCC_FLAGS "-Xcompiler=-fPIC")
-    set(CUDA_TOOLKIT_ROOT_DIR /opt/cuda/targets/x86_64-linux)
+    set(CUDA_TOOLKIT_ROOT_DIR /usr/local/cuda-11.8)
 endif()
 
 list(APPEND CUDA_NVCC_FLAGS "--extended-lambda")

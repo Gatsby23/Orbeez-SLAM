@@ -31,6 +31,12 @@
 *.out
 *.app
 
+# Clion
+.idea/
+.idea/*
+cmake-build-debug/
+cmake-build-debug/*
+
 .vscode/
 build/
 rgbd_dataset_freiburg3_long_office_household*
